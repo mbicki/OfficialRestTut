@@ -19,7 +19,7 @@ class Snippet(models.Model):
                              max_length=100)
     #owner = models.ForeignKey('auth.User', related_name='snippets')
     highlighted = models.TextField()
-
+    
     class Meta:
         ordering = ('created',)
 
